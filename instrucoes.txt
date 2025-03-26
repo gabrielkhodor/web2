@@ -1,0 +1,32 @@
+inicializar o projeto
+    npm init
+
+instala o express
+    npm install express
+
+instala express ejs
+    npm install ejs
+
+instala o nodemon
+npm install nodemom
+
+para iniciar executar com 
+npm start
+
+package.json
+{
+  "main":"app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "start": "nodemon node app.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9"
+  }
+  
+  
+
+
+}
